@@ -1,6 +1,6 @@
 {
   "site": {
-    "title": "Pinwheel Astro",
+    "title": "Mytho Quantum Explorers",
     "base_url": "https://pinwheel-astro.vercel.app",
     "base_path": "/",
     "trailing_slash": false,
@@ -8,7 +8,7 @@
     "logo": "/images/logo.png",
     "logo_width": "147",
     "logo_height": "31",
-    "logo_text": "Pinwheel"
+    "logo_text": "mytho"
   },
 
   "settings": {
@@ -42,7 +42,7 @@
   },
 
   "metadata": {
-    "meta_author": "Themefisher",
+    "meta_author": "Mytho Quantum Explorers",
     "meta_image": "/images/og-image.png",
     "meta_description": "pinwheel astro"
   }
