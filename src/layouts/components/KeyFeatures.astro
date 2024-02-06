@@ -3,19 +3,29 @@ import { markdownify } from "@lib/utils/textConverter";
 import { Image } from "@astrojs/image/components";
 import HomapageFeature from "@layouts/function-components/HomapageFeature";
 const { key_features } = Astro.props;
-const { title, description, feature_list } = key_features;
+const { title, title2, description, description2 } = key_features;
 ---
 
 <section class="section key-feature relative">
   <div class="container">
-    <div class="row justify-between text-center lg:text-start">
+    <div class="m-8 row justify-between text-center lg:text-start">
       <div class="lg:col-5">
-        <h2 set:html={markdownify(title)} />
+        <h3 set:html={markdownify(title)} />
       </div>
       <div class="mt-6 lg:col-5 lg:mt-0">
         <p set:html={markdownify(description)} />
       </div>
     </div>
-    <HomapageFeature feature_list={feature_list} client:load />
+  </div>
+  
+  <div class="container">
+    <div class="m-8 row justify-between text-center lg:text-start">
+      <div class="lg:col-5">
+        <h3 set:html={markdownify(title2)} />
+      </div>
+      <div class="mt-6 lg:col-5 lg:mt-0">
+        <p set:html={markdownify(description2)} />
+      </div>
+    </div>
   </div>
 </section>
