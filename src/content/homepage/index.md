@@ -10,26 +10,18 @@ research to create transformative solutions across industries."
     link: "https://themefisher.com/astro-themes/pinwheel-astro"
     enable: false
 
-# ##key features
-# key_features:
-#   title: "Who We Are?"
-#   title2: "Our Vision"
-#   description: At MythoQuantum Explorers, we pride ourselves on our commitment to innovation and technological expertise. Our renowned Data Science Lab is a testament to our dedication. Through our Research and Development initiatives and Machine Learning techniques, we are constantly providing state-of-the-art solutions. As leaders in the field of technology, we empower our clients to enable them to make strategic decisions that shape the future.
-#   description2: We are focused on strategically finding solutions for future generations by bridging the gap between academic insights and industry needs.Partnering with MythoQuantum Explorers grants access to cutting-edge technological advancements that propel businesses to the forefront of transformative solutions for tomorrow's challenges. Through our commitment to in-depth research and development, we navigate the complex terrain of industry obstacles by leveraging advanced computational environments and innovative frameworks..
-
-
 #service
 service:
   homepage_tab:
     title: All about Us
     description: Our platform helps you build secure onboarding authentication experiences that retain and engage your users. We build the infrastructure, you can.
     tab_list:
-        - title: Who We Are?
-          icon: "lock"  #icon package react-feather-icon [https://feathericons.com/]
-          content: "We are focused on strategically finding solutions for future generations by bridging the gap between academic insights and industry needs.Partnering with MythoQuantum Explorers grants access to cutting-edge technological advancements that propel businesses to the forefront of transformative solutions for tomorrow's challenges. Through our commitment to in-depth research and development, we navigate the complex terrain of industry obstacles by leveraging advanced computational environments and innovative frameworks."
         - title: Our Vision
-          icon: "clock"  #icon package react-feather-icon [https://feathericons.com/]
+          icon: "eye"  #icon package react-feather-icon [https://feathericons.com/]
           content: "At MythoQuantum Explorers, we pride ourselves on our commitment to innovation and technological expertise. Our renowned Data Science Lab is a testament to our dedication. Through our Research and Development initiatives and Machine Learning techniques, we are constantly providing state-of-the-art solutions. As leaders in the field of technology, we empower our clients to enable them to make strategic decisions that shape the future."
+        - title: Who We Are?
+          icon: "info"  #icon package react-feather-icon [https://feathericons.com/]
+          content: "We are focused on strategically finding solutions for future generations by bridging the gap between academic insights and industry needs.Partnering with MythoQuantum Explorers grants access to cutting-edge technological advancements that propel businesses to the forefront of transformative solutions for tomorrow's challenges. Through our commitment to in-depth research and development, we navigate the complex terrain of industry obstacles by leveraging advanced computational environments and innovative frameworks."
 
   our_service:
     - title: Accept payments any country in this whole universe
