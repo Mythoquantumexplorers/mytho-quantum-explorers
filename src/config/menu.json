@@ -9,16 +9,12 @@
       "url": "/about"
     },
     {
-      "name": "Blog",
-      "url": "/blog"
-    },
-    {
       "name": "Services",
       "url": "/features"
     },
     {
-      "name": "How It Works",
-      "url": "/how-it-works"
+      "name": "Projects",
+      "url": "/projects"
     },
     
     {
