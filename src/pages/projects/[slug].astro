@@ -1,0 +1,35 @@
+---
+import { sanityClient } from "sanity:client";
+import { Image } from "@astrojs/image/components";
+import PageHeader from "@components/PageHeader.astro";
+import Shape from "@components/Shape.astro";
+import Base from "@layouts/Base.astro";
+import Cta from "@layouts/partials/Cta.astro";
+import { getEntryBySlug } from "astro:content";
+import PortableText from '../../layouts/components/PortableText.astro'
+export async function getStaticPaths() {
+  const posts = await sanityClient.fetch(`*[_type == "project"]`);
+
+  return posts.map((post: any) => {
+    return {
+      params: {
+        slug: post.slug?.current || '',
+      },
+      props: { ...post },
+    };
+  });
+}
+
+const { title, body } = Astro.props;
+---
+
+<Base
+title={title}
+meta_title={title}
+description={title}
+>
+
+  <div class="w-[90%] md:w-[70%] lg:w-[60%] mx-auto my-[5rem]">
+    <PortableText portableText={body} />
+  </div>
+</Base>

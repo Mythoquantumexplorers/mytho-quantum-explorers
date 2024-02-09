@@ -8,4 +8,4 @@ page_title: Projects we have worked on
 # works
 
 ---
-Donec sollicitudin molestie malesda. Donec sollitudin molestie malesuada. Mauris pellentesque <br /> nec, egestas non nisi. Cras ultricies ligula sed magna dictum porta.Lorem
+Have a look at our case studies <br />
