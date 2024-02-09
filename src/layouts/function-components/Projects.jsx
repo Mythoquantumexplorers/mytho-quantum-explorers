@@ -38,7 +38,7 @@ const Projects = ({ projects }) => {
                 </div>
                 <div>
                   <h3 className="h5 font-primary">{item.title}</h3>
-                  <p className="mt-4">{item.content} </p>
+                  <p className="mt-4 text-left">{item.content} </p>
                 </div>
               </div>
             </div>
