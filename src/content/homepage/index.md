@@ -4,7 +4,7 @@ banner:
   content: "Founded with a passion for innovation and excellence, MythoQuantum Explorers pioneers the field
 of data science and research. We are committed to fusing cutting-edge technology with in-depth
 research to create transformative solutions across industries."
-  image: /images/banner-img.png
+  image: /images/databanner3.svg
   button:
     label: Download The Theme
     link: "https://themefisher.com/astro-themes/pinwheel-astro"
@@ -24,22 +24,25 @@ service:
           content: "We are focused on strategically finding solutions for future generations by bridging the gap between academic insights and industry needs.Partnering with MythoQuantum Explorers grants access to cutting-edge technological advancements that propel businesses to the forefront of transformative solutions for tomorrow's challenges. Through our commitment to in-depth research and development, we navigate the complex terrain of industry obstacles by leveraging advanced computational environments and innovative frameworks."
 
   our_service:
-    - title: Accept payments any country in this whole universe
+    - title: Harness the power of data to make informed decisions.
       desctiption: Donec sollicitudin molestie malesda. Donec sollitudin molestie malesuada. Mauris pellentesque nec, egestas non nisi. Cras ultricies ligula sed
-      image: "/images/collaboration.png"
+      image: "/images/databanner4.svg"
       list:
-        - Supporting more than 119 country world
-        - Open transaction with more than currencies
-        - Customer Service with 79 languages
-    - title: Accountability that works for you
-      description: Lorem ipsum dolor sit amet, consectetur adipiscing elit. Morbi egestas Werat viverra id et aliquet. vulputate egestas sollicitudin.
-      video:
-        thumbnail: "/images/intro-thumbnail.png"
-        video_id: "g3-VxLQO7do"
-      button:
-        label: Know About Us
-        link: "#"
-        enable: true
+        - Transform raw data into actionable insights through cutting-edge analytics tools and techniques.
+        - Collaborate with you throughout the entire product development lifecycle, from ideation to launch.
+        - Build customized financial models for investment analysis, business valuation, and risk management.
+        - Conduct market research, clinical trials & other research activities.
+        - Experts in cloud computing, mobile & web development, leveraging latest technologies.
+        - Help businesses adopt new technologies & processes to thrive in the digital age.
+    # - title: Accountability that works for you
+    #   description: Lorem ipsum dolor sit amet, consectetur adipiscing elit. Morbi egestas Werat viverra id et aliquet. vulputate egestas sollicitudin.
+    #   video:
+    #     thumbnail: "/images/intro-thumbnail.png"
+    #     video_id: "g3-VxLQO7do"
+    #   button:
+    #     label: Know About Us
+    #     link: "#"
+    #     enable: true
 
 #testimonial
 testimonial:

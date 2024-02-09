@@ -4,9 +4,9 @@ page_title: "About our company"
 buttons:
   - label: Download The Theme
     link: "https://themefisher.com/astro-themes/pinwheel-astro"
-    enable: true
-  - label: Learn More
-    link: "#"
+    enable: false
+  - label: Contact Us
+    link: "/contact"
     outline: true
     enable: true
 
@@ -16,15 +16,15 @@ counter:
     number: 25
     messurment: M
     color: "#A3A1FB"
-  - name: "Customers"
+  - name: "Projects"
     number: 440
     messurment: M
     color: "#5EE2A0"
-  - name: "Customers"
+  - name: "Achievements"
     number: 50
     messurment: K
     color: "#FE6019"
-  - name: "Customers"
+  - name: "Datasets"
     number: 20
     messurment: K
     color: "#FEC163"
@@ -62,25 +62,36 @@ features:
 ## members
 members:
   title: This is who we are
-  description: Donec sollicitudin molestie malesda. Donec sollitudin mol estie ultricies ligula sed magna dictum
+  description: Small but mighty! Don't underestimate the power of a tight-knit group with big dreams.
   member_list:
-    - name: Eleanor Pena
-      field: Co-founder & COO
-      image: "/images/users/user-1.png"
-    - name: Bukiakta Bansalo
-      field: Product Manager
-      image: "/images/users/user-2.png"
-    - name: Ortrin Okaster
-      field: Software Engineer
+    - name: Manish Mishra 
+      field: Mentor
+      image: "/images/users/Mentor.webp"
+    - name: Ashish Jha
+      field: Founder
+      image: "/images/users/Ashish.webp"
+    - name: Aanchal Singh
+      field: Co-founder
+      image: "/images/users/Aanchal.webp"
+    - name: Ankit Kumar
+      field: Co-founder
+      image: "/images/users/Ankit.webp"
+    - name:  Udita Dubey
+      field: Financial Analyst
+      image: "/images/users/Udita.webp"
+    - name: Soumendu Roy
+      field: Web Developer
       image: "/images/users/user-3.png"
-    - name: Eleanor Pena
-      field: Co-founder & COO
-      image: "/images/users/user-1.png"
-    - name: Bukiakta Bansalo
-      field: Product Manager
-      image: "/images/users/user-2.png"
-    - name: Ortrin Okaster
-      field: Software Engineer
+    - name: M. Sai Srikanth
+      field: Data Analyst
+      image: "/images/users/Sai.webp"
+    - name:  Gaurav Sharma
+      field: Web Developer
       image: "/images/users/user-3.png"
+    - name: Arpan Thakur
+      field: Financial Analyst
+      image: "/images/users/Arpan.webp"
 ---
-Donec sollicitudin molestie malesda. Donec sollitudin molestie malesuada. Mauris pellentesque nec, egestas non nisi. Cras ultricies ligula sed magna dictum porta. Lorem
+Founded with a passion for innovation and excellence, **MythoQuantum Explorers** pioneers the field
+of data science and research. We are committed to fusing cutting-edge technology with in-depth
+research to create transformative solutions across industries
