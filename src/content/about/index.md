@@ -81,13 +81,13 @@ members:
       image: "/images/users/Udita.webp"
     - name: Soumendu Roy
       field: Web Developer
-      image: "/images/users/user-3.png"
+      image: "https://res.cloudinary.com/dfrpcqahh/image/upload/f_auto,q_auto/v1/mythoquantum/maleavatar"
     - name: M. Sai Srikanth
       field: Data Analyst
       image: "/images/users/Sai.webp"
     - name:  Gaurav Sharma
       field: Web Developer
-      image: "/images/users/user-3.png"
+      image: "https://res.cloudinary.com/dfrpcqahh/image/upload/f_auto,q_auto/v1/mythoquantum/maleavatar"
     - name: Arpan Thakur
       field: Financial Analyst
       image: "/images/users/Arpan.webp"

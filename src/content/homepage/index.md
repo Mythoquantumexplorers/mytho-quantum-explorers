@@ -4,7 +4,7 @@ banner:
   content: "Founded with a passion for innovation and excellence, MythoQuantum Explorers pioneers the field
 of data science and research. We are committed to fusing cutting-edge technology with in-depth
 research to create transformative solutions across industries."
-  image: /images/databanner3.svg
+  image: https://res.cloudinary.com/dfrpcqahh/image/upload/f_auto,q_auto/v1/mythoquantum/databanner4
   button:
     label: Download The Theme
     link: "https://themefisher.com/astro-themes/pinwheel-astro"
@@ -26,7 +26,7 @@ service:
   our_service:
     - title: Harness the power of data to make informed decisions.
       desctiption: Donec sollicitudin molestie malesda. Donec sollitudin molestie malesuada. Mauris pellentesque nec, egestas non nisi. Cras ultricies ligula sed
-      image: "/images/databanner4.svg"
+      image: "https://res.cloudinary.com/dfrpcqahh/image/upload/f_auto,q_auto/v1/mythoquantum/databanner3"
       list:
         - Transform raw data into actionable insights through cutting-edge analytics tools and techniques.
         - Collaborate with you throughout the entire product development lifecycle, from ideation to launch.
@@ -49,48 +49,48 @@ testimonial:
   title: Our customers have nice things to say about us
   description: Lorem ipsum dolor sit amet, consectetur adipiscing elit. Morbi egestas Werat viverra id et aliquet. vulputate egestas sollicitudin.
   testimonial_list:
-    - author: David Cameron
-      avatar: "/images/users/user-5.png"
+    - author: Hermione Granger
+      avatar: "https://res.cloudinary.com/dfrpcqahh/image/upload/f_auto,q_auto/v1/mythoquantum/femaleavatar"
       organization: meta limited
       rating: four
       content: Our platform helps build secure onboarding authentica experiences & engage your users. We build .
-    - author: David Cameron
-      avatar: "/images/users/user-6.png"
+    - author: Ron Weasley
+      avatar: "https://res.cloudinary.com/dfrpcqahh/image/upload/f_auto,q_auto/v1/mythoquantum/maleavatar"
       organization: meta limited
       rating: four
       content: Our platform helps build secure onboarding authentica experiences & engage your users. We build .
-    - author: David Cameron
-      avatar: "/images/users/user-2.png"
+    - author: Hermione Granger
+      avatar: "https://res.cloudinary.com/dfrpcqahh/image/upload/f_auto,q_auto/v1/mythoquantum/femaleavatar"
       organization: meta limited
       rating: three
       content: Our platform helps build secure onboarding authentica experiences & engage your users. We build .
-    - author: David Cameron
-      avatar: "/images/users/user-3.png"
+    - author: Ron Weasley
+      avatar: "https://res.cloudinary.com/dfrpcqahh/image/upload/f_auto,q_auto/v1/mythoquantum/maleavatar"
       organization: meta limited
       rating: five
       content: Our platform helps build secure onboarding authentica experiences & engage your users. We build .
-    - author: David Cameron
-      avatar: "/images/users/user-4.png"
+    - author: Hermione Granger
+      avatar: "https://res.cloudinary.com/dfrpcqahh/image/upload/f_auto,q_auto/v1/mythoquantum/femaleavatar"
       organization: meta limited
       rating: five
       content: Our platform helps build secure onboarding authentica experiences & engage your users. We build .
-    - author: David Cameron
-      avatar: "/images/users/user-1.png"
+    - author: Ron Weasley
+      avatar: "https://res.cloudinary.com/dfrpcqahh/image/upload/f_auto,q_auto/v1/mythoquantum/maleavatar"
       organization: meta limited
       rating: three
       content: Our platform helps build secure onboarding authentica experiences & engage your users. We build .
-    - author: David Cameron
-      avatar: "/images/users/user-5.png"
+    - author: Hermione Granger
+      avatar: "https://res.cloudinary.com/dfrpcqahh/image/upload/f_auto,q_auto/v1/mythoquantum/femaleavatar"
       organization: meta limited
       rating: five
       content: Our platform helps build secure onboarding authentica experiences & engage your users. We build .
-    - author: David Cameron
-      avatar: "/images/users/user-5.png"
+    - author: Ron Weasley
+      avatar: "https://res.cloudinary.com/dfrpcqahh/image/upload/f_auto,q_auto/v1/mythoquantum/maleavatar"
       organization: meta limited
       rating: five
       content: Our platform helps build secure onboarding authentica experiences & engage your users. We build .
-    - author: David Cameron
-      avatar: "/images/users/user-5.png"
+    - author: Hermione Granger
+      avatar: "https://res.cloudinary.com/dfrpcqahh/image/upload/f_auto,q_auto/v1/mythoquantum/femaleavatar"
       organization: meta limited
       rating: five
       content: Our platform helps build secure onboarding authentica experiences & engage your users. We build .
