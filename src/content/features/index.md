@@ -4,7 +4,7 @@ banner:
   title: Services
   subtopic: Strategic Growth
   content: From our initial focus on financial modelling using machine learning, we strategically expand into healthcare and beyond. Our goal is to revolutionize every sector, delivering bespoke services grounded in rigorous research and technological acumen, envisioning a future where data science catalyses positive global change 
-  image: "/images/databanner2.svg"
+  image: "https://res.cloudinary.com/dfrpcqahh/image/upload/f_auto,q_auto/v1/mythoquantum/databanner2"
   button:
     label: Download The Theme
     link: "https://themefisher.com/astro-themes/pinwheel-astro"
