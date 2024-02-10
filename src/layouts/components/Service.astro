@@ -19,8 +19,8 @@ const { homepage_tab, our_service } = service;
                 <Image
                   class="w-full object-contain"
                   alt="service"
-                  width={667}
-                  height={498}
+                  width={500}
+                  height={500}
                   src={item.image}
                 />
                 <Image
@@ -51,7 +51,7 @@ const { homepage_tab, our_service } = service;
             }`}
           >
             <div class="text-container">
-              <h2 class="lg:text-4xl">{item.title}</h2>
+              <h3 class="lg:text-4xl">{item.title}</h3>
               <p class="mt-4">{item.description}</p>
               {item.button && item.button.enable && (
                 <a class="btn btn-white mt-6" href={item.button.link}>
