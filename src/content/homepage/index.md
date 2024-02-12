@@ -5,7 +5,7 @@ banner:
   content: "Founded with a passion for innovation and excellence, MythoQuantum Explorers pioneers the field
 of data science and research. We are committed to fusing cutting-edge technology with in-depth
 research to create transformative solutions across industries."
-  image: "/images/robot-face.webp"
+  image: "https://res.cloudinary.com/dfrpcqahh/image/upload/f_auto,q_auto,a_hflip/Robot_face-amico_z2cklu"
   button:
     label: Download The Theme
     link: "https://themefisher.com/astro-themes/pinwheel-astro"
@@ -13,12 +13,12 @@ research to create transformative solutions across industries."
 
 vision:
   title: Our Vision
-  image: "/images/vision-img.png"  #icon package react-feather-icon [https://feathericons.com/]
+  image: "https://res.cloudinary.com/dfrpcqahh/image/upload/v1707756603/undraw_shared_goals_re_jvqd_zd4hex.svg"
   content: "At MythoQuantum Explorers, we pride ourselves on our commitment to innovation and technological expertise. Our renowned Data Science Lab is a testament to our dedication. Through our Research and Development initiatives and Machine Learning techniques, we are constantly providing state-of-the-art solutions. As leaders in the field of technology, we empower our clients to enable them to make strategic decisions that shape the future."
 
 services: 
   title: "Services we offer"
-  image: "/images/servicesCta.png"
+  image: "https://res.cloudinary.com/dfrpcqahh/image/upload/v1707757261/servicesCta_gmlqjx.png"
   service_list: 
     - Data Analytics 
     - Financial Modelling
@@ -27,7 +27,7 @@ services:
 
 who_we_are: 
   title: Who we are?
-  image: "/images/team.png"
+  image: "https://res.cloudinary.com/dfrpcqahh/image/upload/v1707757386/Team_work-rafiki_bsfd9t.svg"
   content: "We are focused on strategically finding solutions for future generations by bridging the gap between academic insights and industry needs.Partnering with MythoQuantum Explorers grants access to cutting-edge technological advancements that propel businesses to the forefront of transformative solutions for tomorrow's challenges. Through our commitment to in-depth research and development, we navigate the complex terrain of industry obstacles by leveraging advanced computational environments and innovative frameworks."
 
 
