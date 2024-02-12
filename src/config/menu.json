@@ -33,12 +33,8 @@
       "url": "/contact"
     },
     {
-      "name": "Elements",
-      "url": "/elements"
-    },
-    {
-      "name": "Changelog",
-      "url": "/changelog"
+      "name": "Projects",
+      "url": "/projects"
     }
   ]
 }
