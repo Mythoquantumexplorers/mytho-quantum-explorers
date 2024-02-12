@@ -4,11 +4,14 @@ import Banner from "@layouts/components/Banner.astro";
 import KeyFeatures from "@layouts/components/KeyFeatures.astro";
 import Testimonial from "@layouts/components/Testimonial.astro";
 import Service from "@layouts/components/Service.astro";
+import Who_we_are from "@layouts/components/Who_we_are.astro"
+import ServiceCta from "@layouts/components/ServiceCta.astro";
+import Vision from "@layouts/components/Vision.astro"
 import Cta from "@layouts/partials/Cta.astro";
 import { getEntryBySlug } from "astro:content";
 
 const homepage = await getEntryBySlug("homepage", "index");
-const { banner, key_features, service, testimonial } = homepage.data;
+const { banner, key_features, service, testimonial, who_we_are, vision, services } = homepage.data;
 ---
 
 <Base>
@@ -17,6 +20,9 @@ const { banner, key_features, service, testimonial } = homepage.data;
   <!-- key features -->
   <!-- <KeyFeatures key_features={key_features} /> -->
   <!-- service -->
+  <Vision vision={vision}/>
+  <Who_we_are who_we_are={who_we_are}/>
+  <ServiceCta services={services}/>
   <Service service={service} />
   <!-- testimonial -->
   <Testimonial testimonial={testimonial} />

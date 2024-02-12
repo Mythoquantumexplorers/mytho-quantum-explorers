@@ -1,0 +1,42 @@
+---
+import { markdownify } from "@lib/utils/textConverter";
+import { Image } from "@astrojs/image/components";
+import { AiFillCheckCircle } from "react-icons/ai/index.js";
+const { services } = Astro.props;
+const { service_list, image, title } = services;
+---
+
+<section class="section banner relative">
+  <div class="container">
+    <div class="row items-center">
+      <div class="lg:col-6">
+        <!-- <Image
+          class="w-full object-cover"
+          alt="banner"
+          src={image}
+          width={603}
+          height={396}
+        /> -->
+        <img src={image} class="w-full object-contain" alt="">
+      </div>
+      <div class="lg:col-6">
+        <h1 class="banner-title" set:html={markdownify(title)} />
+
+        <div class="flex flex-col gap-3 mt-5">
+            {
+                service_list.map((service: any) => {
+                return (
+                   <div class="flex items-center gap-2">
+                    <AiFillCheckCircle className=" fill-primary text-white" />
+                    <h6 class="" set:html={markdownify(service)} />
+                    </div>
+                    )
+                })
+            }
+        </div>
+
+        <a class="btn btn-primary mt-8" href="/contact">Get in Touch</a>
+      </div>
+    </div>
+  </div>
+</section>

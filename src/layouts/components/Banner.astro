@@ -2,15 +2,15 @@
 import { markdownify } from "@lib/utils/textConverter";
 import { Image } from "@astrojs/image/components";
 const { banner } = Astro.props;
-const { title, button, image, content } = banner;
+const { title, button, image, content, tagline } = banner;
 ---
 
-<section class="section banner relative">
+<section class="section banner relative mb-5">
   <div class="container">
     <div class="row items-center">
       <div class="lg:col-6">
         <h1 class="banner-title" set:html={markdownify(title)} />
-
+        <h3 class="banner-title mt-5" set:html={markdownify(tagline)} />
         <p class="mt-6" set:html={markdownify(content)} />
 
         {
@@ -22,13 +22,14 @@ const { title, button, image, content } = banner;
         }
       </div>
       <div class="lg:col-6">
-        <Image
+        <!-- <Image
           class="w-full object-contain"
           alt="banner"
           src={image}
           width={603}
           height={396}
-        />
+        /> -->
+        <img src={image} loading='lazy' decoding='async' alt="">
       </div>
     </div>
   </div>
