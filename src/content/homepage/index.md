@@ -13,7 +13,7 @@ research to create transformative solutions across industries."
 
 vision:
   title: Our Vision
-  image: "https://res.cloudinary.com/dfrpcqahh/image/upload/v1707756603/undraw_shared_goals_re_jvqd_zd4hex.svg"
+  image: "https://res.cloudinary.com/dfrpcqahh/image/upload/f_auto,q_auto/v1/mythoquantum/swgon49utzbsbleoh9mu"
   content: "At MythoQuantum Explorers, we pride ourselves on our commitment to innovation and technological expertise. Our renowned Data Science Lab is a testament to our dedication. Through our Research and Development initiatives and Machine Learning techniques, we are constantly providing state-of-the-art solutions. As leaders in the field of technology, we empower our clients to enable them to make strategic decisions that shape the future."
 
 services: 
