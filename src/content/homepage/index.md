@@ -5,7 +5,7 @@ banner:
   content: "Founded with a passion for innovation and excellence, MythoQuantum Explorers pioneers the field
 of data science and research. We are committed to fusing cutting-edge technology with in-depth
 research to create transformative solutions across industries."
-  image: "/images/robot-face.webp"
+  image: "https://res.cloudinary.com/dfrpcqahh/image/upload/f_auto,q_auto,a_hflip/Robot_face-amico_z2cklu"
   button:
     label: Download The Theme
     link: "https://themefisher.com/astro-themes/pinwheel-astro"
