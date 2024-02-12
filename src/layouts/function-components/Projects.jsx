@@ -37,7 +37,7 @@ const Projects = ({ projects }) => {
                   </svg>
                 </div>
                 <div>
-                  <h3 className="h5 font-primary">{item.title}</h3>
+                  <a href="/projects"><h3 className="h5 font-primary">{item.title}</h3></a>
                   <p className="mt-4 text-left">{item.content} </p>
                 </div>
               </div>

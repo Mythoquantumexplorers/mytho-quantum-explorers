@@ -1,8 +1,8 @@
 ---
-title: Features
+title: Services
 banner:
   title: Services
-  subtopic: Strategic Growth
+  subtopic: Innovation. Technology. AI and ML
   content: From our initial focus on financial modelling using machine learning, we strategically expand into healthcare and beyond. Our goal is to revolutionize every sector, delivering bespoke services grounded in rigorous research and technological acumen, envisioning a future where data science catalyses positive global change 
   image: "https://res.cloudinary.com/dfrpcqahh/image/upload/f_auto,q_auto/v1/mythoquantum/databanner2"
   button:
@@ -62,4 +62,54 @@ project_management:
       - title: Transaction from Anyone with <br /> a world to Anywhere
         content: Donec sollicitudin molestie malesda. Donec sollitudin molestie malesuada. Mauris pellentesque nec, egestas non nisi. Cras ultricies ligula sed
         image: "/images/features/feature-img-2.png"
+
+#testimonial
+testimonial:
+  title: Client Reviews
+  testimonial_list:
+    - author: Hermione Granger
+      avatar: "https://res.cloudinary.com/dfrpcqahh/image/upload/f_auto,q_auto/v1/mythoquantum/femaleavatar"
+      organization: meta limited
+      rating: four
+      content: Our platform helps build secure onboarding authentica experiences & engage your users. We build .
+    - author: Ron Weasley
+      avatar: "https://res.cloudinary.com/dfrpcqahh/image/upload/f_auto,q_auto/v1/mythoquantum/maleavatar"
+      organization: meta limited
+      rating: four
+      content: Our platform helps build secure onboarding authentica experiences & engage your users. We build .
+    - author: Hermione Granger
+      avatar: "https://res.cloudinary.com/dfrpcqahh/image/upload/f_auto,q_auto/v1/mythoquantum/femaleavatar"
+      organization: meta limited
+      rating: three
+      content: Our platform helps build secure onboarding authentica experiences & engage your users. We build .
+    - author: Ron Weasley
+      avatar: "https://res.cloudinary.com/dfrpcqahh/image/upload/f_auto,q_auto/v1/mythoquantum/maleavatar"
+      organization: meta limited
+      rating: five
+      content: Our platform helps build secure onboarding authentica experiences & engage your users. We build .
+    - author: Hermione Granger
+      avatar: "https://res.cloudinary.com/dfrpcqahh/image/upload/f_auto,q_auto/v1/mythoquantum/femaleavatar"
+      organization: meta limited
+      rating: five
+      content: Our platform helps build secure onboarding authentica experiences & engage your users. We build .
+    - author: Ron Weasley
+      avatar: "https://res.cloudinary.com/dfrpcqahh/image/upload/f_auto,q_auto/v1/mythoquantum/maleavatar"
+      organization: meta limited
+      rating: three
+      content: Our platform helps build secure onboarding authentica experiences & engage your users. We build .
+    - author: Hermione Granger
+      avatar: "https://res.cloudinary.com/dfrpcqahh/image/upload/f_auto,q_auto/v1/mythoquantum/femaleavatar"
+      organization: meta limited
+      rating: five
+      content: Our platform helps build secure onboarding authentica experiences & engage your users. We build .
+    - author: Ron Weasley
+      avatar: "https://res.cloudinary.com/dfrpcqahh/image/upload/f_auto,q_auto/v1/mythoquantum/maleavatar"
+      organization: meta limited
+      rating: five
+      content: Our platform helps build secure onboarding authentica experiences & engage your users. We build .
+    - author: Hermione Granger
+      avatar: "https://res.cloudinary.com/dfrpcqahh/image/upload/f_auto,q_auto/v1/mythoquantum/femaleavatar"
+      organization: meta limited
+      rating: five
+      content: Our platform helps build secure onboarding authentica experiences & engage your users. We build .
 ---

@@ -1,6 +1,8 @@
 ---
 import FeatureBanner from "@components/features/FeatureBanner.astro";
 import ProjecManagement from "@components/features/ProjecManagement.astro";
+import ServiceTestimonial from "@components/features/ServiceTestimonial.astro";
+import Service from "@components/Service.astro";
 import Shape from "@components/Shape.astro";
 import Base from "@layouts/Base.astro";
 import Cta from "@layouts/partials/Cta.astro";
@@ -16,6 +18,7 @@ const features = await getEntryBySlug("features", "index");
   image={features.data.image}
 >
   <FeatureBanner features={features.data} />
+  <ServiceTestimonial features={features.data} />
   <ProjecManagement features={features.data} />
-  <!-- <Cta /> -->
+  <Cta />
 </Base>
