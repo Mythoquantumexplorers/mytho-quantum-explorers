@@ -13,19 +13,19 @@ buttons:
 # counter
 counter:
   - name: "Customers"
-    number: 25
+    number: 10
     messurment: M
     color: "#A3A1FB"
   - name: "Projects"
-    number: 440
+    number: 22
     messurment: M
     color: "#5EE2A0"
   - name: "Achievements"
-    number: 50
+    number: 4
     messurment: K
     color: "#FE6019"
   - name: "Datasets"
-    number: 20
+    number: 2
     messurment: K
     color: "#FEC163"
     
@@ -72,22 +72,16 @@ members:
       image: "/images/users/Ashish.webp"
     - name: Aanchal Singh
       field: Co-founder
-      image: "/images/users/Aanchal.webp"
+      image: "/images/users/Aanchal.png"
     - name: Ankit Kumar
       field: Co-founder
       image: "/images/users/Ankit.webp"
     - name:  Udita Dubey
       field: Financial Analyst
       image: "/images/users/Udita.webp"
-    - name: Soumendu Roy
-      field: Web Developer
-      image: "https://res.cloudinary.com/dfrpcqahh/image/upload/f_auto,q_auto/v1/mythoquantum/maleavatar"
     - name: M. Sai Srikanth
       field: Data Analyst
       image: "/images/users/Sai.webp"
-    - name:  Gaurav Sharma
-      field: Web Developer
-      image: "https://res.cloudinary.com/dfrpcqahh/image/upload/f_auto,q_auto/v1/mythoquantum/maleavatar"
     - name: Arpan Thakur
       field: Financial Analyst
       image: "/images/users/Arpan.webp"

@@ -17,18 +17,23 @@ const {
     </div>
     <div class="row mt-12 justify-center">
       <div class="lg:col-10">
+        <div class="row flex justify-center">
+          <div class="mb-6 flex flex-col px-6 text-center sm:col-6 lg:col-4 sm:items-center">
+            <div class="member-avatar inline-flex justify-center h-[250px]">
+              <img src={member_list[0].image} />
+            </div>
+            <div class="mt-6 w-full flex-1 rounded-xl bg-white px-4 py-8 shadow-lg">
+              <h5 class="font-primary">{member_list[0].name}</h5>
+              <p class="mt-1.5">{member_list[0].field}</p>
+            </div>
+          </div>
+        </div>
         <div class="row">
           {
-            member_list.map((item: any) => (
+            member_list.slice(1).map((item: any) => (
               <div class="mb-6 flex flex-col px-6 text-center sm:col-6 lg:col-4 sm:items-center">
-                <div class="member-avatar inline-flex justify-center">
-                  <Image
-                    height={112}
-                    width={112}
-                    class="rouded-full h-28 w-28"
-                    src={item.image}
-                    alt=""
-                  />
+                <div class="member-avatar inline-flex justify-center h-[200px]">
+                  <img src={item.image} class="object-contain" alt="">
                 </div>
                 <div class="mt-6 w-full flex-1 rounded-xl bg-white px-4 py-8 shadow-lg">
                   <h5 class="font-primary">{item.name}</h5>
