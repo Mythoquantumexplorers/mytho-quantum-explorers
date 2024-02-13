@@ -16,7 +16,7 @@ project_management:
   management:
     title: Project Management
     projects:
-      - title: Data Analytic & AI
+      - title: Data Analytics & AI
         content: Leveraging data to extract insights and make predictions through artificial intelligence techniques.
         icon: cloud  #icon package react-feather-icon [https://feathericons.com/]
       - title: Financial Modelling
