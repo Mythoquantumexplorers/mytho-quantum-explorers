@@ -25,7 +25,7 @@ project_management:
       - title: Research & Development
         content: Investigating new ideas and technologies to improve products, processes, or services.
         icon: globe  #icon package react-feather-icon [https://feathericons.com/]
-      - title: Digital Transformation and Strategy
+      - title: Supply Chain
         content: Planning and implementing initiatives to modernize business operations and processes using digital technologies.
         icon: tv  #icon package react-feather-icon [https://feathericons.com/]
       - title: Healthcare Technology
