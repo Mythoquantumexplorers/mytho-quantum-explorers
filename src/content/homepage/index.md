@@ -3,7 +3,7 @@ banner:
   title: "MythoQuantum Explorers"
   tagline: "Data insights at the speed of light."
   content: "Founded with a passion for innovation and excellence, MythoQuantum Explorers pioneers the field
-of data science and research. We are committed to fusing cutting-edge technology with in-depth
+of data science and research. We are committed to fuse in cutting-edge technology with in-depth
 research to create transformative solutions across industries."
   image: "https://res.cloudinary.com/dfrpcqahh/image/upload/f_auto,q_auto,a_hflip/Robot_face-amico_z2cklu"
   button:
@@ -24,6 +24,8 @@ services:
     - Financial Modelling
     - Research & Development
     - Healthcare Technology
+    - supply chain
+    - product development
 
 who_we_are: 
   title: Who we are?
