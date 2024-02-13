@@ -1,0 +1,50 @@
+---
+import { Image } from "@astrojs/image/components";
+import PageHeader from "@components/PageHeader.astro";
+import Shape from "@components/Shape.astro";
+import Base from "@layouts/Base.astro";
+import Cta from "@layouts/partials/Cta.astro";
+import { getEntryBySlug } from "astro:content";
+import { AiFillCheckCircle } from "react-icons/ai/index.js";
+const projects = await getEntryBySlug("projects", "index");
+const { perfomance, our_works } = projects.data;
+const page_data = {
+  ...projects.data,
+  content: projects.body,
+};
+
+import { sanityClient } from "sanity:client";
+
+const posts = await sanityClient.fetch(`*[_type == "project"]`);
+---
+
+<Base
+  title={projects.data.title}
+  meta_title={projects.data.meta_title}
+  description={projects.data.description}
+>
+  
+  <section class="page-hero pb-14 pt-16">
+    <div class="container">
+      <div class="page-hero-content mx-auto max-w-[883px] text-center">
+        <PageHeader page_data={page_data} />
+      </div>
+    </div>
+  </section>
+
+  <section>
+    <div class="w-[90%] md:w-[75%] mx-auto flex flex-col gap-3">
+      {posts && <ul>
+        {posts.map((post: any) => (
+          <div class="p-14 m-5 flex flex-col gap-5 bg-white shadow-lg rounded-md">
+            <a class="text-2xl text-gray-700" href={`/projects/${post.slug.current}`}>{post.title}</a>
+            <p>{post.description}</p>
+          </div>
+        ))}
+      </ul>}
+    </div>
+  </section>
+
+  <Cta />
+</Base>
+

@@ -10,7 +10,11 @@
     },
     {
       "name": "Services",
-      "url": "/features"
+      "url": "/services"
+    },
+    {
+      "name": "Insights",
+      "url": "/insights"
     },
     {
       "name": "Projects",
