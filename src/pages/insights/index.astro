@@ -32,19 +32,23 @@ const posts = await sanityClient.fetch(`*[_type == "project"]`);
     </div>
   </section>
 
-  <section>
-    <div class="w-[90%] md:w-[75%] mx-auto flex flex-col gap-3">
-      {posts && <ul>
-        {posts.map((post: any) => (
-          <div class="p-14 m-5 flex flex-col gap-5 bg-white shadow-lg rounded-md">
-            <a class="text-2xl text-gray-700" href={`/projects/${post.slug.current}`}>{post.title}</a>
-            <p>{post.description}</p>
+  <section class="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-8">
+    {posts && posts.map((post: any) => (
+      <div class="p-6 bg-white shadow-lg rounded-md">
+        <img src="https://c0.wallpaperflare.com/preview/483/210/436/car-green-4x4-jeep.jpg" alt="rover" class="w-full h-48 object-cover mb-4 rounded-md" />
+        <span class="tag tag-teal">Technology</span>
+        <h4 class="text-xl font-semibold mb-2">{post.title}</h4>
+        <p class="text-gray-700">{post.description}</p>
+        <div class="user flex items-center mt-4">
+          <img src="https://yt3.ggpht.com/a/AGF-l7-0J1G0Ue0mcZMw-99kMeVuBmRxiPjyvIYONg=s900-c-k-c0xffffffff-no-rj-mo" alt="user" class="w-10 h-10 rounded-full mr-2" />
+          <div class="user-info">
+            <h5 class="text-gray-900 font-semibold">July Dec</h5>
+            <small class="text-gray-600">2h ago</small>
           </div>
-        ))}
-      </ul>}
-    </div>
+        </div>
+      </div>
+    ))}
   </section>
 
   <Cta />
 </Base>
-
