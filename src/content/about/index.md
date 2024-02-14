@@ -75,10 +75,10 @@ members:
       image: "/images/users/Aanchal.png"
     - name: Ankit Kumar
       field: Co-founder
-      image: "/images/users/Ankit.webp"
+      image: "/images/users/Ankit.png"
     - name:  Udita Dubey
       field: Financial Analyst
-      image: "/images/users/Udita.webp"
+      image: "/images/users/Udita.png"
     - name: M. Sai Srikanth
       field: Data Analyst
       image: "/images/users/Sai.webp"
