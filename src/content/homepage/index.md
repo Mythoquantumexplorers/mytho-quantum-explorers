@@ -77,7 +77,7 @@ testimonial:
       rating: five
       content: I am really glad on the inauguration of mythoquantum explorers. I hereby congratulate ashish and his whole team for starting something that's become a modern day requirement. I would really suggest them to focus more on the decision making which I am sure they will. Data and its large application on its own can be overwhelming at times but its the proper research and implementation that can convert ground research into something that is useful.
     - author: I.K. Pandey
-      avatar: "public/images/testimonials/ik_pandey.webp"
+      avatar: "/images/testimonials/ik_pandey.webp"
       organization: Pro Vice Chancellor, Singhania University
       rating: five
       content: The MythoQuantum Explorers team had a talk with me. Being able to perceive the business needs and applying academic knowledge into real-life solutions is showing a lot of talent. It was so exciting to see this creative process taking place before my very own eyes. Nevertheless, they do not stop at providing the solutions, they carry out their activities much further. The role of young people in shaping the future is well recognized by the MythoQuantum Explorers community. One very impressive thing about them is their unrelenting dedication to mold the young talents, instilling them with a spirit of innovation and enabling them to add value and pave many significant ways in numerous sectors.
