@@ -71,49 +71,14 @@ service:
 testimonial:
   title: People have nice things to say about us
   testimonial_list:
-    - author: Hermione Granger
-      avatar: "https://res.cloudinary.com/dfrpcqahh/image/upload/f_auto,q_auto/v1/mythoquantum/femaleavatar"
-      organization: meta limited
-      rating: four
-      content: Our platform helps build secure onboarding authentica experiences & engage your users. We build .
-    - author: Ron Weasley
-      avatar: "https://res.cloudinary.com/dfrpcqahh/image/upload/f_auto,q_auto/v1/mythoquantum/maleavatar"
-      organization: meta limited
-      rating: four
-      content: Our platform helps build secure onboarding authentica experiences & engage your users. We build .
-    - author: Hermione Granger
-      avatar: "https://res.cloudinary.com/dfrpcqahh/image/upload/f_auto,q_auto/v1/mythoquantum/femaleavatar"
-      organization: meta limited
-      rating: three
-      content: Our platform helps build secure onboarding authentica experiences & engage your users. We build .
-    - author: Ron Weasley
-      avatar: "https://res.cloudinary.com/dfrpcqahh/image/upload/f_auto,q_auto/v1/mythoquantum/maleavatar"
-      organization: meta limited
+    - author: Manish Mishra
+      avatar: "/images/users/Mentor.webp"
+      organization: VP and Business Head at vHealth by Aetna
       rating: five
-      content: Our platform helps build secure onboarding authentica experiences & engage your users. We build .
-    - author: Hermione Granger
-      avatar: "https://res.cloudinary.com/dfrpcqahh/image/upload/f_auto,q_auto/v1/mythoquantum/femaleavatar"
-      organization: meta limited
+      content: I am really glad on the inauguration of mythoquantum explorers. I hereby congratulate ashish and his whole team for starting something that's become a modern day requirement. I would really suggest them to focus more on the decision making which I am sure they will. Data and its large application on its own can be overwhelming at times but its the proper research and implementation that can convert ground research into something that is useful.
+    - author: I.K. Pandey
+      avatar: "public/images/testimonials/ik_pandey.png"
+      organization: Pro Vice Chancellor, Singhania University
       rating: five
-      content: Our platform helps build secure onboarding authentica experiences & engage your users. We build .
-    - author: Ron Weasley
-      avatar: "https://res.cloudinary.com/dfrpcqahh/image/upload/f_auto,q_auto/v1/mythoquantum/maleavatar"
-      organization: meta limited
-      rating: three
-      content: Our platform helps build secure onboarding authentica experiences & engage your users. We build .
-    - author: Hermione Granger
-      avatar: "https://res.cloudinary.com/dfrpcqahh/image/upload/f_auto,q_auto/v1/mythoquantum/femaleavatar"
-      organization: meta limited
-      rating: five
-      content: Our platform helps build secure onboarding authentica experiences & engage your users. We build .
-    - author: Ron Weasley
-      avatar: "https://res.cloudinary.com/dfrpcqahh/image/upload/f_auto,q_auto/v1/mythoquantum/maleavatar"
-      organization: meta limited
-      rating: five
-      content: Our platform helps build secure onboarding authentica experiences & engage your users. We build .
-    - author: Hermione Granger
-      avatar: "https://res.cloudinary.com/dfrpcqahh/image/upload/f_auto,q_auto/v1/mythoquantum/femaleavatar"
-      organization: meta limited
-      rating: five
-      content: Our platform helps build secure onboarding authentica experiences & engage your users. We build .
+      content: The MythoQuantum Explorers team had a talk with me. Being able to perceive the business needs and applying academic knowledge into real-life solutions is showing a lot of talent. It was so exciting to see this creative process taking place before my very own eyes. Nevertheless, they do not stop at providing the solutions, they carry out their activities much further. The role of young people in shaping the future is well recognized by the MythoQuantum Explorers community. One very impressive thing about them is their unrelenting dedication to mold the young talents, instilling them with a spirit of innovation and enabling them to add value and pave many significant ways in numerous sectors.
 ---
