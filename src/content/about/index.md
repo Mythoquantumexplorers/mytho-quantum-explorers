@@ -70,9 +70,6 @@ members:
     - name: Ashish Jha
       field: Founder
       image: "/images/users/Ashish.webp"
-    - name: Aanchal Singh
-      field: Co-founder
-      image: "/images/users/Aanchal.png"
     - name: Ankit Kumar
       field: Co-founder
       image: "/images/users/Ankit.png"
