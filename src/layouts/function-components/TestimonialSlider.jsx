@@ -38,7 +38,7 @@ const TestimonialSlider = ({ list }) => {
           <SwiperSlide key={"feature-" + i}>
             <div className="review">
               <div className="review-author-avatar ">
-                <img src={item.avatar} alt="" />
+                <img className="mb-32" src={item.avatar} alt="" />
               </div>
               <h4 className="mb-2">{item.author}</h4>
               <p className="mb-4 text-[#666]">{item.organization}</p>

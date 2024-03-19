@@ -81,4 +81,10 @@ testimonial:
       organization: Pro Vice Chancellor, Singhania University
       rating: five
       content: The MythoQuantum Explorers team had a talk with me. Being able to perceive the business needs and applying academic knowledge into real-life solutions is showing a lot of talent. It was so exciting to see this creative process taking place before my very own eyes. Nevertheless, they do not stop at providing the solutions, they carry out their activities much further. The role of young people in shaping the future is well recognized by the MythoQuantum Explorers community. One very impressive thing about them is their unrelenting dedication to mold the young talents, instilling them with a spirit of innovation and enabling them to add value and pave many significant ways in numerous sectors.
+
+    - author: Aniruddha Bose
+      avatar: "/images/testimonials/AB.png"
+      organization: Associate director, Cognizant
+      rating: five
+      content: I was delighted to be part of the inauguration of MythoQuantum Explorers. Embarking on something new and distinct in the fiercely competitive AI landscape is no small feat. My heartfelt congratulations go out to the entire team for this remarkable initiative. I extend my full support to Ashish and his team of talented millennials.
 ---
