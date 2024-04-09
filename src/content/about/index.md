@@ -74,13 +74,13 @@ members:
       field: Co-founder
       image: "/images/users/Ankit.png"
     - name:  Udita Dubey
-      field: Financial Analyst
+      field: Research Analyst
       image: "/images/users/Udita.png"
     - name: M. Sai Srikanth
       field: Data Analyst
       image: "/images/users/Sai.webp"
     - name: Arpan Thakur
-      field: Financial Analyst
+      field: Data Scientist
       image: "/images/users/Arpan.webp"
 ---
 Founded with a passion for innovation and excellence, **MythoQuantum Explorers** pioneers the field
