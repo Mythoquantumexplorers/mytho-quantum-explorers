@@ -40,6 +40,7 @@ const posts = await sanityClient.fetch(`*[_type == "project"] {
   }
 }
 `);
+console.log(posts)
 ---
 
 <Base
@@ -58,25 +59,24 @@ const posts = await sanityClient.fetch(`*[_type == "project"] {
 
   <section class="flex flex-col gap-12 lg:gap-32">
     <div class="w-[90%] md:w-[75%] mx-auto flex flex-col gap-3">
-      {
+      <!-- {
         posts && 
         <ul class="flex flex-col gap-5">
           <h3 class="text-center mb-5 underline">Completed Projects</h3>
         {posts.filter((post: any) => post.status[0].title === 'completed').map((post: any) => (
           <div class="p-8 md:p-14 md:m-5 flex flex-col gap-5 bg-white shadow-lg rounded-md">
-            <img class="aspect-video object-cover" src={post.mainImage?.asset?.url} alt="">  
             <a class="text-2xl text-gray-700" href={`/projects/${post.slug.current}`}>{post.title}</a>
             <p class="">{post.description}</p>
             <button class="btn text-lg">{post.categories[0].title}</button>
           </div>
         ))}
         </ul>
-      }
+      } -->
     </div>
 
 
     <div class="w-[90%] md:w-[75%] mx-auto flex flex-col gap-3">
-      {
+      <!-- {
         posts && 
         <ul class="flex flex-col gap-5">
           <h3 class="text-center mb-5 underline">Ongoing Projects</h3>
@@ -89,12 +89,12 @@ const posts = await sanityClient.fetch(`*[_type == "project"] {
           </div>
         ))}
         </ul>
-      }
+      } -->
     </div>
 
 
     <div class="w-[90%] md:w-[75%] mx-auto flex flex-col gap-3">
-      {
+      <!-- {
         posts && 
         <ul class="flex flex-col gap-5">
           <h3 class="text-center mb-5 underline">Upcoming Projects</h3>
@@ -107,7 +107,7 @@ const posts = await sanityClient.fetch(`*[_type == "project"] {
           </div>
         ))}
         </ul>
-      }
+      } -->
     </div>
   </section>
 

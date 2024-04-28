@@ -4,6 +4,7 @@ import PageHeader from "@components/PageHeader.astro";
 import config from "@config/config.json";
 import Base from "@layouts/Base.astro";
 import { getEntryBySlug } from "astro:content";
+import emailjs from '@emailjs/browser';
 
 const entry = await getEntryBySlug("contact", "index");
 const { contact_form_action } = config.params;
@@ -12,6 +13,8 @@ const page_data = {
   ...contact,
   content: contact.body,
 };
+
+
 ---
 
 <Base
@@ -40,7 +43,7 @@ const page_data = {
         <div class="md:col-6 md:order-1">
           <form
             class="lg:max-w-[484px]"
-            action={contact_form_action}
+            action="https://forms.un-static.com/forms/37e0c820a26fe2308c25f725cc4022bb09e2ac09"
             method="POST"
           >
             <div class="form-group mb-5">
@@ -49,6 +52,7 @@ const page_data = {
                 class="form-control"
                 type="text"
                 id="name"
+                value=""
                 placeholder="Your Full Name"
               />
             </div>
@@ -57,6 +61,8 @@ const page_data = {
               <input
                 class="form-control"
                 type="text"
+                name="email"
+                value=""
                 id="email"
                 placeholder="Your  Email Address"
               />
@@ -65,22 +71,24 @@ const page_data = {
               <label class="form-label" for="reason">Reason/Purpose</label>
               <select name="reason" id="reason" class="form-select" required>
                 <option value="">Select reason/purpose</option>
-                <option value="investment plane">Guest Post</option>
-                <option value="investment plane-2">Research Service</option>
-                <option value="investment plane-3">Research Colaboration</option>
-                <option value="investment plane-3">Others </option>
+                <option value="Guest post">Guest Post</option>
+                <option value="Research service">Research Service</option>
+                <option value="Research collaboration">Research Colaboration</option>
+                <option value="others">Others </option>
               </select>
             </div>
             <div class="form-group mb-5">
               <label class="form-label" for="message">Message Here</label>
               <textarea
                 class="form-control h-[150px]"
+                name="message"
+                value=""
                 id="message"
                 cols="30"
                 rows="10"></textarea>
             </div>
             <input
-              class="btn btn-primary block w-full"
+           <!--  -->   class="btn btn-primary block w-full"
               type="submit"
               value="Send Message"
             />
