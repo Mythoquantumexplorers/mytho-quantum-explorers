@@ -73,9 +73,9 @@ members:
     - name: Ankit Kumar
       field: Co-founder
       image: "/images/users/Ankit.png"
-    - name:  Udita Dubey
-      field: Research Analyst
-      image: "/images/users/Udita.png"
+    - name:  Dr. Sumit Maheshwari 
+      field: Chief Research Officer
+      image: "/images/users/Sumit.png"
     - name: M. Sai Srikanth
       field: Data Analyst
       image: "/images/users/Sai.webp"

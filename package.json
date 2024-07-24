@@ -17,7 +17,7 @@
     "@emailjs/browser": "^4.3.3",
     "@sanity/astro": "^2.2.0",
     "@sanity/client": "^6.12.4",
-    "astro": "^2.3.2",
+    "astro": "^2.10.15",
     "astro-auto-import": "^0.3.0",
     "astro-portabletext": "^0.9.6",
     "date-fns": "^2.30.0",
