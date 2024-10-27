@@ -75,13 +75,17 @@ members:
       image: "/images/users/Ankit.png"
     - name:  Dr. Sumit Maheshwari 
       field: Chief Research Officer
-      image: "/images/users/Sumit.png"
+      image: "/images/users/Sumit1.png"
     - name: M. Sai Srikanth
-      field: Data Analyst
+      field: Operations Head
       image: "/images/users/Sai.webp"
-    - name: Arpan Thakur
-      field: Data Scientist
-      image: "/images/users/Arpan.webp"
+    - name: Vishnu Lal Maurya
+      field: Product Engineer & Strategic Partner
+      image: "/images/users/Vishnu.png"
+    - name: Bhanu Verma
+      field: Product Engineer & Strategic Partner
+      image: "/images/users/Bhanu.png"
+
 ---
 Founded with a passion for innovation and excellence, **MythoQuantum Explorers** pioneers the field
 of data science and research. We are committed to fusing cutting-edge technology with in-depth
