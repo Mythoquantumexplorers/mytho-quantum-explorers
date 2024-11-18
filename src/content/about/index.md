@@ -73,9 +73,6 @@ members:
     - name: Ankit Kumar
       field: Co-founder
       image: "/images/users/Ankit.png"
-    - name:  Dr. Sumit Maheshwari 
-      field: Chief Research Officer
-      image: "/images/users/Sumit1.png"
     - name: M. Sai Srikanth
       field: Operations Head
       image: "/images/users/Sai.webp"
@@ -85,6 +82,9 @@ members:
     - name: Bhanu Verma
       field: Product Engineer & Strategic Partner
       image: "/images/users/Bhanu.png"
+    # - name:  Dr. Sumit Maheshwari 
+    #   field: Chief Research Officer
+    #   image: "/images/users/Sumit1.png"
 
 ---
 Founded with a passion for innovation and excellence, **MythoQuantum Explorers** pioneers the field
