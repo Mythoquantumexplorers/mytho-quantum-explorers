@@ -85,6 +85,9 @@ members:
     # - name:  Dr. Sumit Maheshwari 
     #   field: Chief Research Officer
     #   image: "/images/users/Sumit1.png"
+    - name: Eti Jain
+      field: Research Analyst
+      image: "/images/users/eti.png"
 
 ---
 Founded with a passion for innovation and excellence, **MythoQuantum Explorers** pioneers the field
