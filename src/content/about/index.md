@@ -67,27 +67,34 @@ members:
     - name: Manish Mishra 
       field: Mentor
       image: "/images/users/Mentor.webp"
+      linkedIn: "https://www.linkedin.com/in/manishmishraisb/"
     - name: Ashish Jha
       field: Founder
       image: "/images/users/Ashish.webp"
+      linkedIn: "https://www.linkedin.com/in/ashish-jha-mqe/"
     - name: Ankit Kumar
       field: Co-founder
       image: "/images/users/Ankit.png"
+      linkedIn: "https://www.linkedin.com/in/ankit-kumar-7041b9229/"
     - name: M. Sai Srikanth
       field: Operations Head
       image: "/images/users/Sai.webp"
+      linkedIn: "https://www.linkedin.com/in/malayathisaisrikanth/"
     - name: Vishnu Lal Maurya
       field: Product Engineer & Strategic Partner
       image: "/images/users/Vishnu.png"
+      linkedIn: "https://www.linkedin.com/in/vishnu-lal-maurya-92abbb250/"
     - name: Bhanu Verma
       field: Product Engineer & Strategic Partner
       image: "/images/users/Bhanu.png"
+      linkedIn: "https://www.linkedin.com/in/bhanu-verma-738947258/"
     # - name:  Dr. Sumit Maheshwari 
     #   field: Chief Research Officer
     #   image: "/images/users/Sumit1.png"
     - name: Eti Jain
       field: Research Analyst
       image: "/images/users/eti.png"
+      linkedIn: "https://www.linkedin.com/in/eti-jain-29084b291/"
 
 ---
 Founded with a passion for innovation and excellence, **MythoQuantum Explorers** pioneers the field
